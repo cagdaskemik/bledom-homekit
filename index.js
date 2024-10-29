@@ -1,5 +1,13 @@
 let Service, Characteristic;
 
+const EFFECTS = {
+  JUMP_RGB: 0x87,
+  JUMP_RGBYCMW: 0x88,
+  CROSSFADE_RGB: 0x89,
+  CROSSFADE_RGBYCMW: 0x8a,
+  BLINK_RGBYCMW: 0x95,
+};
+
 class LedStrip {
   constructor(log, config, api) {
     this.log = log;
@@ -109,5 +117,5 @@ class LedStrip {
 module.exports = (homebridge) => {
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
-  homebridge.registerAccessory("homebridge-ledstrip-bledom", "LedStrip", LedStrip);
+  homebridge.registerAccessory("@cagdaskemik/homekit-bledom", "LedStrip", LedStrip);
 };
