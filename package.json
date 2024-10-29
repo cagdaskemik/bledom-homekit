@@ -1,6 +1,6 @@
 {
-    "name": "@cagdaskemik/homebridge-ledstrip-bledom-lotuslantern",
-    "version": "1.1.0",
+    "name": "@cagdaskemik/homekit-bledom",
+    "version": "0.0.1",
     "displayName": "Homebridge Ledstrip BLEDOM",
     "description": "",
     "main": "index.js",
@@ -21,12 +21,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/cagdaskemik/homebridge-ledstrip-bledom-lotuslantern.git"
+        "url": "git+https://github.com/cagdaskemik/homekit-bledom.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/cagdaskemik/homebridge-ledstrip-bledom-lotuslantern/issues"
+        "url": "https://github.com/cagdaskemik/homekit-bledom/issues"
     },
-    "homepage": "https://github.com/cagdaskemik/homebridge-ledstrip-bledom-lotuslantern#readme"
+    "homepage": "https://github.com/cagdaskemik/homekit-bledom#readme"
 }
